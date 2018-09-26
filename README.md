@@ -15,7 +15,8 @@ npm run dev
 
 #使用小程序组件库,安装并使用iview weapp
 npm i iview-weapp
-#下载完成后,在node_modules里面找到iview-weapp下的dist文件,将这个dist文件复制到自己的mpvue工程下的static目录下(一定要放在此目录下,否则这些代码会被mpvue编译器错误的进行处理),然后给这个dist目录改个名字,例如iview-weapp
+#下载完成后,在node_modules里面找到iview-weapp下的dist文件,将这个dist文件复制到自己的mpvue工程下的static目录下
+#(一定要放在此目录下,否则这些代码会被mpvue编译器错误的进行处理),然后给这个dist目录改个名字,例如iview-weapp
 
 #如果想在
 src/pages/index/index.vue
